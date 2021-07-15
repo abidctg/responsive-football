@@ -1,0 +1,151 @@
+/* top-banner */
+.top-banner{
+    display: flex;
+    width: 1000px;
+    height: 530px;
+    margin-top: 0;
+    background-color: blue;
+}
+#top-title{
+    padding-left: 100px;
+    padding-top: 120px;
+    font-size: 50px;
+    color: white;
+}
+.top-text{
+    display: list-item;
+}
+.top-text a{
+    font-size: 16px;
+    background-color: #E02C6D;
+    width: 150px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    padding-left: 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer
+}
+.banner-pic{
+    width: 500px;
+    height: 400px;
+    padding-top: 80px;
+    overflow: hidden;
+}
+.banner-pic:hover{
+    transform: skew(20deg,10deg);
+    transition: transform 1s ease-in;
+}
+
+/* --------
+fonts 
+-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*--------
+ common style
+ --------- */
+ body{ 
+     font-family: 'Poppins', sans-serif;
+    background-color:black;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        background-color:white;
+        width: 1000px;
+        padding: 30px;
+    }
+
+/*-----------
+top players style
+------------- */
+.players{
+    display: grid;
+    grid-row-gap:30px;
+    /*------------------------------------ 
+    grid-template-columns: repeat(3,1fr);
+    -------------------------------------- */
+    grid-template-columns: repeat(3,1fr);
+}
+.player img {
+    width: 250px;
+    height: 250px;
+}
+/*------------
+ top-10 
+ -------------*/
+.top-10{display: flex;
+width: 60%; height: 60%;
+font-size: 16px;
+margin: 20px;}
+h3{
+    margin: 20px;
+    font-weight: 700;
+}
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.match{
+    text-decoration: none;
+    color: black;
+    background-color: chartreuse;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.top-7{
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+.top-6 img{width: 400px;height: 400px;}
+.all-highlight{
+    display: flex;
+}
+footer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
